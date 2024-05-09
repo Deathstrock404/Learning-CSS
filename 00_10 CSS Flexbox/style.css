@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  padding: 10px;
+  /* border: 10px solid indianred; */
+  display: flex;
+  height: 50vh;
+  align-items: flex-start; /* flex start set the element  at the beginning of the cross axis (vertically)*/
+  /* when we want to center the flex container we use  */
+  /* justify-content: center; create equal space on both side and keeps the content b/w those spaces */
+  /*flex-direction: row-reverse;*/ /* this reverses the order of all the flex items  in a container*/
+  /*flex-direction: column;*/ /*  this property is used to change the direction of the flex items in a flex container this column sets the elements to be set in a column rather then row */
+  /*justify-content: space-between*/ /*create equal space b/w all the element and  push them together*/
+  /*justify-content: space-around;*/ /*creates equal space around each of its child but at the sides it gives 1/2 the space of the space b/w*/
+  /*justify-content: space-evenly;*/ /*creates even space around all the children and keeps the same space on the sides*/
+  /*align-items: flex-end;*/ /* flex end sets the element at the end of the cross axis (vertically) */
+  /*align-items: center*/ /* centers elements both vertically and horizontally in the middle of the cross axis */
+}
+
+.parent span {
+  background-color: cadetblue;
+  /* border: 4px solid cadetblue; */
+  /* width: 400px; */
+  /* height: 300px; */
+  /* flex-shrink: 0; */
+}
+.parent p {
+  margin: 0;
+  background-color: darkkhaki;
+  /* border: 4px solid darkkhaki; */
+  /* width: max-content;  Force the paragraph to shrink wrap its content */
+  /* width: 500px; */
+}
+.parent a {
+  background-color: yellowgreen;
+  /* flex-grow: 0.5; */
+  /* border: 4px solid yellowgreen; */
+  /* width: 500px; */
+  /* flex-shrink: 0; */
+}

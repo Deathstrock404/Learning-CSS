@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+/* p {
+  background-color: yellowgreen;
+  width: 300px;
+  height: 100px;
+  margin: 25px;
+  padding: 25px;
+  border: 10px solid green;
+  box-sizing: border-box;
+} */
+.html {
+  /* background-color: aquamarine; */
+  /* when we want to convert a inline element to a block element */
+  /* display: block; */
+  /* height: 200px; */
+  /* width: 300px; */
+  /* border: 10px solid pink; */
+  /* margin: 20px; */
+}
+
+span {
+  /* to keep the inline elements in one line while also applying height and width*/
+  display: inline-block;
+  background-color: aquamarine;
+  /* to convert a inline element to a block element */
+  /* display: block; */
+  width: 60px;
+  padding: 20px;
+  height: 40px;
+  border: 10px solid pink;
+  margin: 20px;
+}
+
+/* div {
+  padding: 20px;
+  background-color: turquoise;
+} */
+
+video {
+  width: 651px;
+  height: 480px;
+}
+
+iframe {
+  width: 487px;
+  height: 480px;
+}

@@ -1,0 +1,41 @@
+.box {
+  /* width: 100px;
+  height: 100px; */
+
+  height: 150px;
+  width: 300px;
+  background-color: rgb(0, 128, 0);
+  background-image: url(https://images.unsplash.com/photo-1714244322811-f1387dc93909?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: rgba(0, 136, 0, 0.681); */
+  /*transform: scale(4)*/ /* this zooms on the element*/
+  transition: transform 700ms; /* if we want only one property to animate*/
+  /*transition: all 500ms;*/ /* if we want all properties to animate but we should not use this as it may cause some lag*/
+  /*transform-origin: 0 0*/ /* this sets the origin of the zoom to the top left corner of the element and the values are the x and y coordinates of the element*/
+  opacity: 100%; /* this sets the transparency of the element */
+  /*transform: rotate(45deg) /* this rotates the element by 45 degrees */
+  /*transform: translate(100px, 100px) /* this moves the element 100px to the right and 100px down */
+  /*   
+  
+  
+  
+  
+   */
+
+  box-shadow: 9px 8px 12px 4px rgba(1, 1, 1, 0.5); /* this sets the shadow of the element and the values are the x and y coordinates of the shadow, the blur radius, the spread radius and the color of the shadow */
+
+  /*when we want to center a div to its parent element we do this*/
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+h1 {
+  text-shadow: 3px 2px 2px rgb(76 168 130);
+}
+
+.box:hover {
+  transform: rotate(45deg);
+}

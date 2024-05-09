@@ -1,0 +1,44 @@
+.html {
+  color: #dd4b25;
+}
+
+#css {
+  color: #254bdd;
+}
+
+.js {
+  color: #efd81d;
+}
+
+#react {
+  color: #5ed3f3;
+}
+
+#tailwind {
+  color: #0ea5e9;
+}
+
+body {
+  font-size: 39px;
+  font-weight: 700;
+}
+
+[class] {
+  background-color: pink;
+}
+
+[kamaljot="artemiz"]:hover {
+  background-color: lightgreen;
+}
+
+[kamaljot="coder"] {
+  background-color: lightblue;
+}
+
+ul p {
+  background-color: lightcoral;
+}
+
+h1:hover {
+  color: indigo;
+}

@@ -1,0 +1,59 @@
+/* to select all the elements of the page at once we use the universal selector */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+h1 {
+  background-color: aquamarine;
+}
+
+/* body {
+  font-size: 26px;
+} */
+
+/* .parent {
+  width: 800px;
+  background-color: red;
+} */
+
+.one {
+  background-color: aquamarine;
+  /* this % will be taken from the parent element  */
+  /* width: 50%; */
+  width: 300px;
+  /* word-break: break-all; */
+  padding: 10px;
+  margin: 40px;
+  border: 4px solid teal;
+  /* this is to add gradient to an element  */
+  background-image: linear-gradient(120deg, rgb(21, 255, 0), rgb(0, 8, 255));
+}
+
+/* .one-child {
+  width: 50%;
+} */
+
+.two {
+  background-color: chocolate;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin: 40px;
+  border: 8px solid chartreuse;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.two img {
+  height: 100%;
+  width: 100%;
+  /* box-sizing: content-box; */
+  border-radius: 50%;
+}
+
+/* to make a element circle we make the border radius 50% while making the height and width same to make a square */
+/* .two {
+  border-radius: 50%;
+} */

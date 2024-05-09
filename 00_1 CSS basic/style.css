@@ -1,0 +1,13 @@
+p {
+  color: red;
+  font-size: 30px;
+  font-weight: 600;
+  /* text-decoration: underline wavy; */
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+}

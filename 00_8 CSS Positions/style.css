@@ -1,0 +1,120 @@
+/* body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input,
+textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+.inline {
+  display: inline;
+}
+a {
+  color: #dfdfe2;
+} */
+div {
+  /* background-color: chartreuse; */
+  /* in case of static top bottom left right doesn't work */
+  /* position: static; */
+
+  /* in relative case it will only add any visible changes to the page when we provide any one of the property of top, bottom, left, right. the top is inversely related to the bottom and left is inversely related to right  */
+  /* position: relative; */
+  /* also when we provide the top and bottom property it applies the top and same for the left and right it applies the left */
+  /* top: 3px;
+  left: 3px;
+  bottom: 3px;
+  right: 3px; */
+  /* this does the same as all the four  above combined */
+  /* inset: 3px; */
+}
+ul {
+  position: relative;
+}
+.css-container {
+  background-color: aqua;
+  position: absolute; /* this will take the element out of the normal flow of the document and will place it relative to the nearest positioned ancestor or its parent if we provide any position to that which is not static*/
+  top: 56px;
+  left: 10px;
+  right: 10px;
+}
+
+.js-container {
+  /* position: fixed; */
+  /* this will take the element out of the normal flow of the document and will place it relative to the viewport */
+  /* top: 10px;
+  left: 10px;
+  right: 10px; */
+  background-color: tomato;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: violet;
+}

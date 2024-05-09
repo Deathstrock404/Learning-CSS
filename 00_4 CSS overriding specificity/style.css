@@ -1,0 +1,42 @@
+li.html#html {
+  background-color: teal;
+}
+
+/* if we apply !important to the background it will override all the other styles and apply this one  */
+li {
+  background-color: coral !important;
+  color: dodgerblue;
+}
+/* and only an another !important can override a !important style */
+li {
+  background-color: teal !important;
+  color: burlywood !important;
+}
+
+#html {
+  background-color: cyan;
+}
+
+.html {
+  background-color: yellow;
+}
+
+li {
+  background-color: pink;
+  color: magenta;
+}
+li {
+  background-color: red;
+}
+li {
+  background-color: blue;
+}
+li {
+  background-color: coral;
+  color: dodgerblue;
+}
+
+body {
+  font-size: 39px;
+  font-weight: 700;
+}
