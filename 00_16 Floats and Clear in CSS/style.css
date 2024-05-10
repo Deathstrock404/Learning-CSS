@@ -1,3 +1,6 @@
+.container-prime {
+  display: flex;
+}
 .container {
   padding: 10px;
 }
@@ -10,6 +13,9 @@ img {
   margin-left: 1rem;
 }
 
+.paragraph {
+  background-color: burlywood;
+}
 .first-paragraph {
   background-color: burlywood;
 }
