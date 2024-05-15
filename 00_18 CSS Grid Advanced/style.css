@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: lightblue;
+  min-height: 60vh;
+  display: grid;
+  /* grid-auto-flow: row dense; */ /* dense means that don't create extra space  */
+  /*grid-auto-flow: column;*/ /* the default value of auto-flow is row */
+  /* grid-template-columns: repeat(4, 100px); */
+  /* grid-template-columns: repeat(4, 200px); */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(120px, 1fr)
+  ); /* this means automatically fill the available space with columns and set their min width to 120 and if > 120 then automatically divide the width equally*/
+  /* grid-template-columns: repeat(5,minmax(80px, 140px));  */ /* using this we can specify the min & max width of the column */
+  /*  grid-template-columns: repeat(auto-fill, 100px);*/ /*this automatically fills the columns based on the space available on the screen*/
+  /*grid-auto-columns: 120px;*/ /* this is used to specify the width of the automatically created columns */
+  /* grid-auto-rows: 120px; */ /* this is used to specify the height of the rows rather then setting it automatically based on the content */
+  /* we can also use the flex properties inside the grid also  */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* justify-items: center; */
+
+  /* grid-template-rows: repeat(6, 100px);
+  grid-template-columns: repeat(4, 100px); */
+  /* we can use the shortcut property to define the above two at the same time where the 1st value is for row & the 2nd value is for columns  */
+  /* grid-template: repeat(6, 100px) / repeat(4, 100px); */
+  /* ↑ above if we don't want to specify row or column we can't leave it empty we have to set it to none */
+  /* grid-template: repeat(6, 100px) / none; */
+}
+
+.box {
+  color: white;
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+.box-1 {
+  background-color: green;
+  /* grid-column-start: 3;
+  grid-column-end: 5; */
+  /* we can use a shortcut property to give this */
+  /* grid-column: 3/5; */
+
+  /* grid-row-start: 2;
+  grid-row-end: 4; */
+  /* we can use a shortcut property to define the above two at once */
+  /* grid-row: 2/4; */
+}
+
+.box-2 {
+  background-color: blueviolet;
+}
+
+.box-3 {
+  background-color: blue;
+}
+
+.box-4 {
+  background-color: brown;
+}
+
+.box-5 {
+  background-color: coral;
+}
+
+.box-6 {
+  background-color: darkblue;
+  /* align-self: stretch;
+  justify-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* margin-block: auto;
+  margin-inline: auto; */
+}
+
+.box-7 {
+  background-color: darkred;
+}
+
+.box-8 {
+  background-color: darkslategray;
+}
+
+.box-9 {
+  background-color: gray;
+}
+
+.box-10 {
+  background-color: navy;
+}
